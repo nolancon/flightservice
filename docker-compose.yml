@@ -1,6 +1,6 @@
 version: '3'
 services:
-    flightservice_app:
+    flightservice-app:
         container_name: flightservice 
         image: nolancon/flightservice
         restart: on-failure
@@ -27,4 +27,3 @@ services:
             interval: 4s
             timeout: 20s
             retries: 5
-        
